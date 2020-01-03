@@ -1,0 +1,8 @@
+version: "2"         # required to adjust maintainability checks
+plugins:
+  duplication:
+    enabled: false
+  structure:
+    enabled: false
+  pylint:
+    enabled: true
